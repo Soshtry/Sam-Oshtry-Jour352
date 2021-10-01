@@ -7,6 +7,16 @@
   padding-bottom: 50px;
 }
 
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -45,12 +55,12 @@ strong {
   min-width: 300px;
 }
 
-h3 {
+.jobtitle {
   font-weight:600;
   font-size:2em;
 }
 
-h4 {
+.organization {
   font-weight:400;
   font-size:1.5em;
 }
