@@ -1,6 +1,7 @@
 #content {
   margin: 0 auto;
-  width: 900px:
+  width: 700px:
+  text-align: center;
 }
 
 #byline {
@@ -21,6 +22,7 @@ h1 {
   font-style: oblique;
   font-size: 12px;
   font-family: sans-serif;
+  font-weight: bold;
 }
 
 img {
@@ -38,11 +40,13 @@ p {
 h2 {
   font-family: sans-serif;
   font-size: 9px;
+  font-weight: bold;
 }
 
 h3 {
   font-family: sans-serif;
   font-size: 9px;
+  font-weight: bold;
 }
 
 blockquote {
