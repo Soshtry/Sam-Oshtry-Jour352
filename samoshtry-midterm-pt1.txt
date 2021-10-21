@@ -1,0 +1,58 @@
+1.
+<p><a href="https://www.google.com/">Google</a></p>
+
+2.
+The purpose of a div tag is to be used as a container where elements, such as images, headlines, text, etc. can be stored and divided out so it can later by styled. It defines a section in a document. 
+
+3.
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title> Sam Oshtry Midterm part 1</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+4.
+ A link to the stylesheet would go in between the head tags, below the title, like I did in the question above.
+
+5.
+Text, images and div tags would all go in the body section of the HTMl page.
+
+6.
+<div class="graphicbox"> </div>
+
+<div id="name"> </div>
+
+7.
+
+<div id="apples"> </div>
+
+<div class="fruit" </div>
+
+8.
+.fruit {
+color: #000000;
+}
+
+9.
+<img src=""
+
+10.
+We use media queries because it helps the site adapt to the specific format it is being displayed on, whether that is a small phone screen or big computer screen, and it helps adjust for those parameters.
+
+11.
+
+Serif fonts have an embellishment on the end of the font, which sans-serif does not, thus sans-serif is considered less formal and easier to read.
+
+12.
+#FFCC33 is the hexadecimal code.
