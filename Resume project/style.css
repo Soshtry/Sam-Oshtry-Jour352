@@ -1,0 +1,47 @@
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+   position: absolute;
+   text-align: center;
+   padding:5px;
+   font-size:20px;
+   background-color:black;
+   color: white;
+   top: 400px;
+   left: 0;
+   width: 100%;
+}
+
+
+img {
+  width:100%;
+  size: 100px;
+
+}
+
+.i {
+  width: 100;
+  text-align: center;
+  size: 100px;
+}
+
+h3 {
+  text-align: center;
+  background-color: red;
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  background-color: red;
+}
+p {
+  text-align: left;
+}
