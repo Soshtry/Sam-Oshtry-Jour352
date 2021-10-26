@@ -36,6 +36,7 @@ h3 {
 
 p {
   text-align: center;
+  font-family: sans-serif;
 }
 
 h4 {
@@ -44,4 +45,12 @@ h4 {
 }
 p {
   text-align: left;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  background-color: red;
+  font-family: serif;
+  size: 100px;
 }
