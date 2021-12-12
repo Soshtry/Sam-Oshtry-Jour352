@@ -22,6 +22,11 @@ h1 {
   color: #8B0000;
 }
 
+
+.header {
+  padding-bottom: 10px;
+}
+
 .hed {
   font-size:3em;
   font-family: 'Montserrat', sans-serif;
@@ -98,6 +103,7 @@ h1 {
   position: relative;
   text-align: center;
   color: white;
+  bottom-padding: 5px;
 }
 
 .hero-image{
@@ -128,6 +134,7 @@ h1 {
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
   font-size:.25em;
+  bottom-padding: 5px;
 }
 
 
