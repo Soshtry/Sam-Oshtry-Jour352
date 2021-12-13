@@ -6,6 +6,12 @@
 		<title>Sam Oshtry</title>
 		<meta name="description" content="Merrill College of Journalism, UMD">
 		<meta name="author" content="Sam Oshtry">
+
+		<meta charset="utf-8">
+  <meta name="viewport"
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<!-- Load c3.css -->
@@ -21,6 +27,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<span  class="nav-logo"><span class="red"></span> </span>
 		</nav>
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,30 +37,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 	<!-- Navbar start-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Injury Crisis</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#history">History</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Medicine
-          </a>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">NBA Injury Crisis</a>
+	    </div>
+	    <div>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+	        <ul class="nav navbar-nav">
+	          <li><a href="#AAU">AAU</a></li>
+	          <li><a href="#History">History</a></li>
+	          <li><a href="#medicine">Medicine</a></li>
+	            <ul class="dropdown-menu">
+	            </ul>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
 
   <!--splash-->
 		<div class="hero-container">
@@ -94,7 +100,8 @@
 
         <p>These kids, he thinks to himself, are ticking time bombs.</p>
 
-        <h1>The threat of AAU</h1>
+				<div id="AAU" class="container-fluid"> </div>
+        <h2>The threat of AAU</h2>
         <p>"And, again, I understand I shouldn't use a broad brush to criticize the entire AAU system, because parts of it are excellent. But also parts of it are very broken, especially [as it] relates to injuries in the league. What we're seeing is a rash of injuries among young players."</p>
 
         <p>NBA commissioner Adam Silver is standing before a lectern prior to Game 1 of the 2017 NBA Finals between the Warriors and Cavaliers. He's upholding a Finals tradition for the commissioner to field questions on issues facing the league. The seventh question, at first, sounds boilerplate: It focuses on the NBA's newly branded G League and whether Silver believes it might become a pipeline for NBA hopefuls to skip college. Silver says it's an issue the league is looking into. But then he takes a detour and begins addressing something else: youth basketball and injuries -- almost as if he has something he wants to get off his chest. "What our orthopedics are telling us," Silver says, "is they're seeing wear-and-tear issues in young players that they didn't used to see until players were much older."</p>
@@ -135,16 +142,15 @@
 
           <div class="col-md-6">
             <img src="images/improve-handles-tip.jpeg" class="stack-image">
-          <p class="caption">Kids participating in basketball drills (Credit: image from ussportscamps.com) </p>
+          <p class="caption">Kids participating in basketball drills (Credit: image from ussportscamps.com)</p>
 
 					</div>
 
 				</div>
 
 
-				<div class="header">
+				<div id="History" class="container-fluid"> </div>
         <h1>The history of the injuries</h1>
-				id=History
         <p>The most common explanation is as lazy as it is popular: Players today just aren't as tough as their NBA forefathers. They're soft. Chip Schaefer, the Bulls' director of performance health, refers to this trope as "millennial bashing" -- and this from the man who served as the head athletic trainer during the Bulls' 1990-98 heyday, when they were led by the standard-bearer for NBA toughness: Michael Jordan.</p>
 
         <p>In his career, Jordan battled the hard-hitting "Bad Boys" Pistons and legendarily played through most any injury. In Jordan's day, the gold standard for durability was simple: start all 82 NBA regular-season games, which he did in eight of his 13 seasons in Chicago.</p>
@@ -165,6 +171,7 @@
 
         <p>A separate 2016 study from Bell and his team found that 36% of high school athletes classified as highly specialized, training in one sport for more than eight months a year -- and that those athletes were two to three times more likely to suffer a hip or knee injury.</p>
 
+
         <div class="container">
           <div class="row">
 
@@ -173,7 +180,8 @@
 
         </div>
 
-        <h1>The role of sports medicine and the modern athlete</h1>
+				<div id="Medicine" class="container-fluid"></div>
+        <h2>The role of sports medicine and the modern athlete</h2>
         <p>Players kept dropping out -- that's all Jayanthi knew for sure. It was happening at four prestigious national tournaments for elite tennis players ages 12-18. There, players who played more than four matches -- often at least one per day over a span of four consecutive days -- were more than twice as likely to pull out of the tournament before their fifth match for medical reasons than those who didn't advance that far.</p>
 
         <p>Soon thereafter, they examined about 530 high-level tennis players aged 12 to 18 in the Midwest. One of the first findings was the majority of these athletes -- about 70% -- had specialized in tennis, and the average age that they'd begun doing so was 10 years old. They also found that those who had begun specializing in tennis at a young age were 1.5 times more likely to report an injury than those who hadn't specialized. One year later, they began what would become the largest clinical study of its kind, following about 1,200 young athletes -- the average age was 13 and a half -- across all sports in the Chicago area for up to three years. Roughly two-thirds of that group had visited local sports medicine clinics with injuries; the other third were uninjured and attended primary care clinics, largely for annual sports physicals. The goal: compare the injured to the uninjured, over a period of three years, and see what the numbers revealed.</p>
@@ -209,10 +217,11 @@
         <p>Clark calls it "the performance paradox."</p>
 
         <p>"Think about it as the tip of the iceberg. What you see on the top of the water is really skillful, very athletic kids, especially now even in high school. You get a sophomore that can do a 360-degree dunk whereas 20 years ago you never saw that. You see kind of the good outcome, which is improved skill, improved athleticism. But down below, their movement quality is suffering, and a lot of these kids just move absolutely terrible. You're like, 'How can a kid jump 38 inches when they can't even stand on one leg?'"</p>
+			
 
         <iframe title="Number of injuries faced for each team from 2005-06 to 2015-16 " aria-label="Map" id="datawrapper-chart-ew8N3" src="https://datawrapper.dwcdn.net/ew8N3/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="550"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-        <h1>Specialization and a powerless NBA</h1>
+        <h2>Specialization and a powerless NBA</h2>
         <p>Adam Silver is quick to note that what orthopedics and other medical professionals have informed him regarding injuries and youth basketball remains largely anecdotal.</p>
 
         <p>But even that anecdotal information is alarming enough that the NBA and USA Basketball, in October 2016, unveiled its first-ever guidelines for youth basketball, which recommend, among other strictures, delaying specialization for young players in basketball until they're 14 or older; limiting high-density scheduling based on age-appropriate guidelines through high school; and ensuring rest from organized basketball at least one day a week and extended time away each year. For example: that 7- to 8-year-olds play only one game a week (length: 20-28 minutes), one practice per week (30-60 minutes), and no more than three hours per week of organized basketball. For grades 9 through 12, the recommendations are two to three games per week; 90-120 minutes per practice; and three to four practices per week. These guidelines were influenced by a group led by Dr. John DiFiori, chief of the Primary Care Sports Medicine Service and attending physician at New York City's Hospital for Special Surgery. The NBA brought DiFiori aboard in 2015 as its director of sports medicine; he'd been studying youth sports and overuse injuries for more than 25 years and was the lead author and led the working group that published Overuse Injuries and Burnout in Youth Sports: A Position Statement from the American Medical Society for Sports Medicine.</p>
@@ -253,7 +262,7 @@
           <div class="row">
 
         <img src="images/oladipo-stretch-iso-0124.jpeg" class="stack-image">
-        <p class="caption">Victor Oladipo on a stretcher after an injury (Credit: images from NBA.com)</p>
+        <p class="caption">Victor Oladipo on a stretcher after an injury (Credit: image from NBA.com)</p>
 
         </div>
 

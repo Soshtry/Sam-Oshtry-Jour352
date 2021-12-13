@@ -11,8 +11,8 @@ p{
 
 .navbar {
   font-family: 'Montserrat', sans-serif;
-
 }
+
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -20,6 +20,15 @@ h1 {
   font-weight: bold;
   font-size: 1.5em;
   color: #8B0000;
+  padding-top: 70px;
+}
+
+h2 {font-family: 'Montserrat', sans-serif;
+text-align: left;
+font-weight: bold;
+font-size: 1.5em;
+color: #8B0000;
+
 }
 
 
@@ -61,7 +70,7 @@ h1 {
   width:100%;
   max-width:900px;
   margin:0 auto;
-  padding-bottom:30px;
+  padding-bottom:0px;
   font-family: 'Montserrat', sans-serif;
   color:#999;
 }
