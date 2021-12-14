@@ -4,7 +4,7 @@
   text-align:center;
 }
 
-p{
+p {
   text-align:left;
   line-height:180%;
 }
@@ -88,17 +88,12 @@ color: #8B0000;
   color: #fff
 }
 
-/* Top hat */
 
 .nav-logo {
   color:#fff;
   margin:0 auto;
   font-weight: 700;
   text-transform:uppercase;
-}
-
-.red {
-  color:#f23030;
 }
 
 .bg-dark {
